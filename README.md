@@ -26,7 +26,7 @@ The tool expects a directory containing a corpus in brat-flavored Standoff, e.g.
 To convert the `train` partition to CoNLL format:
 
 ```
-python2 standoff2conll path/to/NCBI_Disease/ > NCBI_Disease_CoNLL.tsv
+python2 standoff2conll.py path/to/NCBI_Disease/ > NCBI_Disease_CoNLL.tsv
 ```
 
 Run `python standoff2conll --help` to see all command line arguments.
