@@ -29,4 +29,4 @@ To convert to CoNLL format:
 python2 standoff2conll.py path/to/example_corpus/ > example_corpus.tsv
 ```
 
-Run `python2 standoff2conll --help` to see all command line arguments.
+Run `python2 standoff2conll.py --help` to see all command line arguments.
